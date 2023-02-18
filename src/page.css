@@ -6,14 +6,16 @@
 .slider {
     display: flex;
     background-color: lightgray;
-    width: 50%;
+    width: 70%;
     justify-content: space-between;
 }
 
-.slider>img {
+.arrow, .play {
     width: 10%;
     height: 10%;
 }
+
+
 
 .gallery {
     padding: 1%;
@@ -35,7 +37,7 @@
 .tab {
     display: flex;
     border-radius: 50%;
-    width: 50px;
+    width: clamp(10px, 5vw, 100px);
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -46,3 +48,7 @@
     align-items: center;
 }
 
+.picture {
+    width: 100%;
+    height: 100%;
+}
